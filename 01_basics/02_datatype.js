@@ -1,30 +1,39 @@
-"use strict";// treat all js code as newer version
+"use strict "   //treat all the js code as newer version
 
 
-let name = "hitesh";
-let age = 19;
-let isLoggeediN = true;
+// Remember always code readabiity should be high that means 
+console.log(3+ 
+    3)
 
 
 
-// data types in js
-// Number 
-// String = " "
-// boolean = "true" or  "false"
-// null=> standalone type
-// undefined
-// symbol=.unique values
+    // console.log(3+3);  
+    //  :::::Always recommended /////
 
 
-// object
 
-let aged = 55;
-console.log(typeof "hitesh");
-console.log(typeof aged);
+    // Lets learn about the different data types in javascipt
 
-console.log(typeof undefined);
-console.log(typeof null);
+    let id = 233;   //Number
+    let name = "Priyaraj mohanty" //String
+    let isLoggedIn = true;  //Boolean
+    let returned = null ; //it also a standalone value
+    let undefned;  //Undefined
+    // Symbol ==> Unique
 
 
+    // Non-primitive
+    // Array
+    // Object 
+
+    // To check the type of the varibale we use "typeOf"
+    console.log(typeof 44);
+    console.log(typeof null); //always remember it always returns object
+    console.log(typeof undefned)
+    console.log(typeof "hello");
+
+    // we can also use it like a method
+    console.log(typeof(isLoggedIn));
+    console.log(typeof(user_password));
 
 
